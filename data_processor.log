@@ -1,0 +1,16 @@
+2024-09-12 21:59:21,133 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: Starting file processing
+2024-09-12 21:59:21,134 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: Processing file: testformat1_2021-07-06.txt
+2024-09-12 21:59:21,134 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: Reading spec file: specs\testformat1.csv
+2024-09-12 21:59:21,141 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: df_spec:   column name  width datatype
+0        name     10     TEXT
+1       valid      1  BOOLEAN
+2       count      3  INTEGER
+2024-09-12 21:59:21,141 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: Processing file: data\testformat1_2021-07-06.txt
+2024-09-12 21:59:21,141 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: Applying data types.
+2024-09-12 21:59:21,144 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: df_data:        name  valid  count
+0  Diabetes   True      1
+1    Asthma  False    -14
+2    Stroke   True    122
+2024-09-12 21:59:21,144 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: Writing NDJSON file: output\testformat1_2021-07-06.ndjson
+2024-09-12 21:59:21,145 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: File processed: testformat1_2021-07-06.txt - testformat1_2021-07-06.ndjson
+2024-09-12 21:59:21,147 31b55307-a3a3-4dc0-be21-8dbf4dcf755e INFO: File processing completed.
